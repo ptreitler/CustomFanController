@@ -28,6 +28,10 @@
         android:layout_marginLeft="@dimen/default_margin"
         android:layout_marginTop="@dimen/default_margin"
         android:layout_marginRight="@dimen/default_margin"
+        app:fanColor0="@color/fan_speed_off"
+        app:fanColor1="@color/fan_speed_low"
+        app:fanColor2="@color/fan_speed_medium"
+        app:fanColor3="@color/fan_speed_high"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/customViewLabel" />
